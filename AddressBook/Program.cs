@@ -16,6 +16,9 @@ namespace AddressBook
 
             EditContactDetails editDetails = new EditContactDetails();
             editDetails.Edit();
+
+            DeleteContact deleteDetails = new DeleteContact();
+            deleteDetails.DeleteName();
         }
     }
 }
