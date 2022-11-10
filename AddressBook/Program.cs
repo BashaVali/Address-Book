@@ -13,6 +13,9 @@ namespace AddressBook
             AddContact addContact = new AddContact();
             addContact.EnterInput();
             addContact.ViewTheDetails();
+
+            EditContactDetails editDetails = new EditContactDetails();
+            editDetails.Edit();
         }
     }
 }
